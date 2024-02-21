@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Hamburguer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        .space{
+            margin-top: 2em;
+        }
+        .banner{
+            width: 100%;
+            height: 800px;
+            background: url(assets/img/cardapio.jpg) no-repeat center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            object-fit: cover;
+        }
+        .center{
+            text-align: center;
+        }
+        .text-img{
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            color: #f1f1f1;
+        }
+        .background{
+            background-color: #3d0407;
+            color: #f1f1f1;
+        }
+        .color{
+            color: #f1f1f1;
+        }
+        .padding{
+            padding: 2em;
+        }
+        .center{
+            text-align: center;
+        }
+        .center-img{
+            left: 50%;
+            top: 50%;
+            bottom: 50%;
+            right: 50%;
+        }
+    </style>
+</head>
+<div class="container-fluid">
+    <body>
+        <header>
+            <!--banner-->
+            <div class="banner">
+                <div class="text-img center">
+                    <h5 class="display-3 fw-bold">National</h5>
+                    <h1 class="display-1 fw-bold">Hamburguer</h1>
+                </div>
+            </div>
+        </header>    
+        <main>
+            <div class="row space">
+                <div class="col-sm-12 col-xxl-4">
+                    <img src="./assets/img/capa.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-xxl-4">
+                    <h1>Sobre</h1>
+                    <p>Criada em 2019 pelo Jeferson Soares, a National Hamburguer chegou forte no mercado</p>
+                </div>
+            </div>
+            <hr>
+            <!--Premiações-->
+            <div class="background padding">    
+                <div>
+                    <h3>Premiações</h3>
+                </div>
+                <div class="row row-cols-md-3 row-cols-1 g-6 text-center padding">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/img/premio1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Combo Maximus</h5>
+                                <p class="card-text">Vencedor do prêmio "Melhor Combo da Região"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/img/premio2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">X-Bacon-Salada</h5>
+                                <p class="card-text">Vencedor do prêmio "Melhor Podrão"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/img/premio3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bacon Maximus</h5>
+                                <p class="card-text">Vencedor do Prêmio "Melhor Lanche da Região"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--cardápio-->
+            <div> 
+                <div>
+                    <img src="./assets/img/cardapio.jpg" alt="" class="img-fluid">                   
+                </div>                  
+				<div class="position-absolute color center start-50 translate-middle">                  
+                    <h1 class="fs-1">Venha conhecer nosso cardápio</h1>
+                    <button type="button" class="btn background center">Saiba Mais</button>                       
+                </div>
+			</div>
+            <hr>
+            <!--conhecer-->
+            <div class="background padding">
+                <div>
+                    <h3>Venha Conhcer nossa Hamburgueria</h3>
+                </div>
+                <div class="row space">
+                    <div class="col-sm-12 col-xxl-6">
+                        <img src="./assets/img/conhecer.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-sm-12 col-xxl-6">
+                        <h2>Localização</h2>
+                        <a href="https://www.google.com.br/maps/preview" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Google Maps</a>
+                        <h2>WhatsApp</h2>
+                        <p>32 99899-9999</p>
+                        <h2>Instagram</h2>
+                        <a href="https://www.instagram.com/" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">@National_Hamburger</a>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <footer class="background text-center text-lg-start text-white">
+                <div class="text-center p-3">
+                    Todos os direitos reservados
+                </div>
+            </footer>
+        </main>
+    </body>
+</div>
+</html>
